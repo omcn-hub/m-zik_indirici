@@ -4,8 +4,8 @@ import yt_dlp
 from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy
 
-SPOTIFY_CLIENT_ID = "df6715ed12d841a2978a582a29000287"
-SPOTIFY_CLIENT_SECRET = "a9b37a51fb3d47fe9a4f854e5d842086"
+SPOTIFY_CLIENT_ID = "BURAYA_KENDI_CLIENT_ID_YAZILACAK"
+SPOTIFY_CLIENT_SECRET = "BURAYA_KENDI_SECRET_KEY_YAZILACAK"
 
 sanatci_adi = input("Sanatçının adını yaz: ").strip()
 usb_yolu = input("USB sürücü yolunu gir (örn: E:/Muzikler): ").strip()
@@ -63,3 +63,4 @@ for dosya in os.listdir(indirilen_klasor):
         shutil.copy(os.path.join(indirilen_klasor, dosya), usb_yolu)
 
 print("\nİşlem tamamlandı. Şarkılar USB'ye kopyalandı.")
+
